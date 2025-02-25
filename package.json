@@ -12,5 +12,8 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "particles.js": "^2.0.0"
   }
 }
