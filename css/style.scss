@@ -36,7 +36,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #bec092;
+  background-color: #1a1a1a;
   font-family: "Baloo 2", sans-serif;
 }
 
@@ -52,7 +52,7 @@ main {
     width: 40rem;
     height: 55rem;
     border-radius: 10px;
-    background-color: #272b00;
+    background-color: #f5f5f5;
     text-align: center;
 
     position: relative;
@@ -62,10 +62,10 @@ main {
     justify-content: start;
     align-items: center;
 
-    box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
-    -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
-    
+
     @include responsive-desktop() {
       width: 35rem;
       height: 45rem;
@@ -75,7 +75,6 @@ main {
       width: 25rem;
       height: 35rem;
     }
-
 
     @include responsive-tablet {
       width: 35rem;
@@ -99,7 +98,7 @@ main {
       width: 13rem;
       height: 13rem;
       border-radius: 50%;
-      border: 5px solid #f8fbca;
+      border: 5px solid #1a1a1a;
       margin-top: 1rem;
 
       box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
@@ -129,7 +128,7 @@ main {
 
     h2 {
       font-size: 2.5rem;
-      color: #f8fbcae3;
+      color: #1a1a1a;
 
       @include responsive-nethub() {
         font-size: 2rem;
@@ -154,8 +153,8 @@ main {
       border-radius: 5px;
       margin: 0.3rem 0rem;
 
-      background-color: #868f5d;
-      color: #F5F5F5;
+      background-color: #1a1a1a;
+      color: #f5f5f5;
 
       text-decoration: none;
 
@@ -184,7 +183,7 @@ main {
       }
 
       &:hover {
-        background-color: #54582f;
+        background-color: #272b00;
         box-shadow: 0px 0px 0px 0px transparent;
         -webkit-box-shadow: 0px 0px 0px 0px transparent;
         -moz-box-shadow: 0px 0px 0px 0px transparent;
@@ -287,7 +286,7 @@ main {
         -webkit-box-shadow: 0px 0px 0px 0px transparent;
         -moz-box-shadow: 0px 0px 0px 0px transparent;
 
-        border: 2px solid #f5f5f5;
+        border: 2px solid #1a1a1a;
       }
     }
   }

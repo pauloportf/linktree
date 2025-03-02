@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #bec092;
+  background-color: #1a1a1a;
   font-family: "Baloo 2", sans-serif;
 }
 
@@ -21,15 +21,15 @@ main section.card {
   width: 40rem;
   height: 55rem;
   border-radius: 10px;
-  background-color: #272b00;
+  background-color: #f5f5f5;
   text-align: center;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
-  -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
 }
 @media screen and (max-width: 1400px) {
@@ -67,7 +67,7 @@ main section.card .profile {
   width: 13rem;
   height: 13rem;
   border-radius: 50%;
-  border: 5px solid #f8fbca;
+  border: 5px solid #1a1a1a;
   margin-top: 1rem;
   box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
   -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
@@ -99,7 +99,7 @@ main section.card .profile {
 }
 main section.card h2 {
   font-size: 2.5rem;
-  color: rgba(248, 251, 202, 0.8901960784);
+  color: #1a1a1a;
 }
 @media screen and (max-width: 1100px) {
   main section.card h2 {
@@ -122,8 +122,8 @@ main section.card .lastfm {
   height: 4rem;
   border-radius: 5px;
   margin: 0.3rem 0rem;
-  background-color: #868f5d;
-  color: #F5F5F5;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
   text-decoration: none;
   transition: 0.5s ease;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5);
@@ -168,7 +168,7 @@ main section.card .github:hover,
 main section.card .spotify:hover,
 main section.card .twitter:hover,
 main section.card .lastfm:hover {
-  background-color: #54582f;
+  background-color: #272b00;
   box-shadow: 0px 0px 0px 0px transparent;
   -webkit-box-shadow: 0px 0px 0px 0px transparent;
   -moz-box-shadow: 0px 0px 0px 0px transparent;
@@ -266,5 +266,5 @@ main section.card .playlists:hover {
   box-shadow: 0px 0px 0px 0px transparent;
   -webkit-box-shadow: 0px 0px 0px 0px transparent;
   -moz-box-shadow: 0px 0px 0px 0px transparent;
-  border: 2px solid #f5f5f5;
+  border: 2px solid #1a1a1a;
 }/*# sourceMappingURL=style.css.map */
