@@ -77,7 +77,7 @@ main {
     }
 
     @include responsive-tablet {
-      width: 35rem;
+      width: 25rem;
     }
 
     @include responsive-mobile {
@@ -260,15 +260,15 @@ main {
       }
 
       @include responsive-tablet {
-        width: 30rem;
+        width: 20rem;
       }
 
       @include responsive-mobile {
         width: 18rem;
         height: 8rem;
 
-        background-image: url(../imagens/playlistsGif.gif);
-        color: #000;
+        background-image: url(https://64.media.tumblr.com/8b4df33965944347d5faec14779ba517/4d12c77b8fa58713-50/s540x810/47e377bda9a594b5999b90d1d0c0ef8067e9f11b.gif);
+        color: #f5f5f5;
       }
 
       @include responsive-300 {
