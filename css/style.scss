@@ -36,7 +36,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #1a1a1a;
+  background-color: #000;
   font-family: "Baloo 2", sans-serif;
 }
 
@@ -153,7 +153,7 @@ main {
       border-radius: 5px;
       margin: 0.3rem 0rem;
 
-      background-color: #1a1a1a;
+      background-color: #3065ac;
       color: #f5f5f5;
 
       text-decoration: none;
@@ -183,7 +183,7 @@ main {
       }
 
       &:hover {
-        background-color: #272b00;
+        background-color: #000000;
         box-shadow: 0px 0px 0px 0px transparent;
         -webkit-box-shadow: 0px 0px 0px 0px transparent;
         -moz-box-shadow: 0px 0px 0px 0px transparent;
@@ -229,13 +229,13 @@ main {
 
       margin-top: 1rem;
 
-      background-color: #282828;
       border-radius: 10px;
 
-      background-image: url(../imagens/playlistsCover.png);
+      background-image: url(https://64.media.tumblr.com/8b4df33965944347d5faec14779ba517/4d12c77b8fa58713-50/s540x810/47e377bda9a594b5999b90d1d0c0ef8067e9f11b.gif);
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center;
+      background-position: top;
+      opacity: 0.8;
 
       display: flex;
       justify-content: center;
@@ -268,7 +268,7 @@ main {
         height: 8rem;
 
         background-image: url(../imagens/playlistsGif.gif);
-        color: #494949b7;
+        color: #000;
       }
 
       @include responsive-300 {
@@ -278,9 +278,11 @@ main {
       }
 
       &:hover {
-        background-image: url(../imagens/playlistsGif.gif);
+        /*background-image: url(../imagens/playlistsGif.gif); */
 
-        color: #f3f3f396;
+        color: #f5f5f5;
+        background-color: #000000;
+        opacity: 1;
 
         box-shadow: 0px 0px 0px 0px transparent;
         -webkit-box-shadow: 0px 0px 0px 0px transparent;
