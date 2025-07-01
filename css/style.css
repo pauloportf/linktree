@@ -122,7 +122,7 @@ main section.card .lastfm {
   height: 4rem;
   border-radius: 5px;
   margin: 0.3rem 0rem;
-  background-color: #3065ac;
+  background-color: #272b00;
   color: #f5f5f5;
   text-decoration: none;
   transition: 0.5s ease;
@@ -164,15 +164,6 @@ main section.card .lastfm {
     width: 16rem;
   }
 }
-main section.card .github:hover,
-main section.card .spotify:hover,
-main section.card .twitter:hover,
-main section.card .lastfm:hover {
-  background-color: #000000;
-  box-shadow: 0px 0px 0px 0px transparent;
-  -webkit-box-shadow: 0px 0px 0px 0px transparent;
-  -moz-box-shadow: 0px 0px 0px 0px transparent;
-}
 main section.card .github img,
 main section.card .spotify img,
 main section.card .twitter img,
@@ -192,6 +183,30 @@ main section.card .spotify h3,
 main section.card .twitter h3,
 main section.card .lastfm h3 {
   flex-grow: 0.8;
+}
+main section.card .github:hover {
+  background-color: #000000;
+  box-shadow: 0px 0px 0px 0px transparent;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+  -moz-box-shadow: 0px 0px 0px 0px transparent;
+}
+main section.card .spotify:hover {
+  background-color: #4ebd25;
+  box-shadow: 0px 0px 0px 0px transparent;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+  -moz-box-shadow: 0px 0px 0px 0px transparent;
+}
+main section.card .twitter:hover {
+  background-color: #1b84da;
+  box-shadow: 0px 0px 0px 0px transparent;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+  -moz-box-shadow: 0px 0px 0px 0px transparent;
+}
+main section.card .lastfm:hover {
+  background-color: #f50e0e;
+  box-shadow: 0px 0px 0px 0px transparent;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+  -moz-box-shadow: 0px 0px 0px 0px transparent;
 }
 main section.card .github img {
   width: 40px;
@@ -225,7 +240,6 @@ main section.card .playlists {
   text-decoration: none;
   color: #f5f5f5;
   font-size: xx-large;
-  border: 2px solid transparent;
   transition: 0.4s ease-in-out;
 }
 @media screen and (max-width: 1400px) {
@@ -265,8 +279,4 @@ main section.card .playlists:hover {
   color: #f5f5f5;
   background-color: #000000;
   opacity: 1;
-  box-shadow: 0px 0px 0px 0px transparent;
-  -webkit-box-shadow: 0px 0px 0px 0px transparent;
-  -moz-box-shadow: 0px 0px 0px 0px transparent;
-  border: 2px solid #1a1a1a;
 }/*# sourceMappingURL=style.css.map */
